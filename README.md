@@ -11,12 +11,13 @@ This is a C++ implementation of the classic game of checkers. The game consists 
 7. Follow the on-screen instructions to play the game.
 
 # Game Rules
-Pieces can only move diagonally and can only move to empty squares.
-Normal pieces can only move forward, but kings (pieces that have reached the opposite end of the board) can move in any direction.
-If a piece jumps over an opponent's piece, the opponent's piece is captured and removed from the board.
-The game ends when one of the players has no more pieces on the board or cannot make a legal move.
-The player with the most pieces remaining on the board wins. If both players have the same number of pieces, the game ends in a draw.
-Classes
+1. Pieces can only move diagonally and can only move to empty squares.
+2. Normal pieces can only move forward, but kings (pieces that have reached the opposite end of the board) can move in any direction.
+3. If a piece jumps over an opponent's piece, the opponent's piece is captured and removed from the board.
+4. The game ends when one of the players has no more pieces on the board or cannot make a legal move.
+5. The player with the most pieces remaining on the board wins. If both players have the same number of pieces, the game ends in a draw.
+
+# Classes
 Piece
 Represents a piece on the board.
 Has a color, which can be white, black, or empty.
@@ -27,7 +28,8 @@ Has methods to initialize the board, move pieces, print the board, get pieces, a
 Player
 Represents a player in the game.
 Has a name and a color, which can be white or black.
-Game
+
+# Game
 Represents a game of checkers.
 Contains a board, player1, player2, and currentPlayer.
 Has methods to play the game, check if the game is over, and validate moves.
