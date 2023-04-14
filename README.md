@@ -1,7 +1,7 @@
 # Game of Checkers
 This is a C++ implementation of the classic game of checkers. The game consists of a Board with 64 squares, each of which can contain a Piece. There are two players, Player1 and Player2, who take turns moving their pieces on the board. The game continues until one of the players wins or the game ends in a draw.
 
-##How to Play
+# How to Play
 Run the game by executing the program.
 The initial board will be displayed with pieces represented by "w" for white pieces, "b" for black pieces, and "-" for empty squares.
 Enter the coordinates of the piece you want to move in the format "row column". For example, to move a piece in the top left corner of the board, enter "0 0".
