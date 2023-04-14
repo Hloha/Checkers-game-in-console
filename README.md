@@ -18,14 +18,14 @@ This is a C++ implementation of the classic game of checkers. The game consists 
 5. The player with the most pieces remaining on the board wins. If both players have the same number of pieces, the game ends in a draw.
 
 # Classes
-Piece
+-Piece
 Represents a piece on the board.
 Has a color, which can be white, black, or empty.
-Board
+-Board
 Represents the game board.
 Contains a vector of shared pointers to pieces.
 Has methods to initialize the board, move pieces, print the board, get pieces, and set pieces.
-Player
+-Player
 Represents a player in the game.
 Has a name and a color, which can be white or black.
 
